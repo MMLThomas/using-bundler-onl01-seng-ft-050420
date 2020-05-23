@@ -1,5 +1,5 @@
-require_relative 
-  '../config/environment'
+require_relative '../config/environment'
+  Bundler.require(:default, :development)
 
 Hashie
 Sinatra
